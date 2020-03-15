@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Try Suite">
+
+	<test name="TryTest">
+		<classes>
+			  <class name="test.test1" />
+			  <class name="test.test2" />
+			  <class name="test.test3" />
+		</classes>
+	</test>
+	
+	
+	
+	
+		<test name="Remove">
+			<classes>
+				<class name="test.test3">
+					<methods>
+						<exclude name="berke" />
+					</methods>
+				</class>
+			</classes>
+		</test>
+
+
+	
+</suite> <!-- Suite -->
